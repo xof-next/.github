@@ -23,10 +23,6 @@ STAR_HISTORY_REPOS = 10
 
 
 def request_json(url):
-    """GET a GitHub API URL and return the parsed JSON.
-
-    Returns None for "no content" and for "not found / empty repository" answers.
-    """
     headers = {
         "Accept": "application/vnd.github+json",
         "X-GitHub-Api-Version": "2022-11-28",
@@ -39,14 +35,13 @@ def request_json(url):
         with urllib.request.urlopen(request, timeout=30) as response:
             body = response.read()
     except urllib.error.HTTPError as error:
-        if error.code in (404, 409):  # 409 = empty repository
+        if error.code in (404, 409):
             return None
         raise
     return json.loads(body) if body else None
 
 
 def get_all(path):
-    """Return every item of a list endpoint, following pages of 100 items."""
     items = []
     page = 1
     separator = "&" if "?" in path else "?"
