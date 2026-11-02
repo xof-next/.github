@@ -80,7 +80,54 @@ Languages and technologies used across our projects:
 Live numbers for all public, non-fork repositories in the organization. Refreshed daily by GitHub Actions.
 
 <!-- STATS:START -->
-_Statistics are generated automatically and appear after the first workflow run._
+_Last updated 2026-11-02 10:37 UTC · generated automatically by GitHub Actions_
+
+| Repositories | Stars | Forks | Contributors | Languages |
+|:---:|:---:|:---:|:---:|:---:|
+| 5 | 1 | 0 | 2 | 7 |
+
+### Top repositories
+
+| # | Repository | Description | Stars | Forks | Language | Last push |
+|:---:|:---|:---|:---:|:---:|:---:|:---:|
+| 1 | [`fetch`](https://github.com/xof-next/fetch) | — | 1 | 0 | JavaScript | 2026-08-19 |
+| 2 | [`.github`](https://github.com/xof-next/.github) | — | 0 | 0 | Python | 2026-11-02 |
+| 3 | [`https-proxy-agent`](https://github.com/xof-next/https-proxy-agent) | — | 0 | 0 | JavaScript | 2026-08-19 |
+| 4 | [`sc-archive`](https://github.com/xof-next/sc-archive) | Open-source CLI for password-protected .sc archives. The whole ZIP payload is encrypted with AES-256-GCM and scrypt-derived keys, file names stay hidden, and a separate recovery token can unlock the archive if the password is lost. Ruby and Rust implementations. | 0 | 0 | Ruby | 2026-11-02 |
+| 5 | [`XQuic`](https://github.com/xof-next/XQuic) | — | 0 | 0 | JavaScript | 2026-11-02 |
+
+### Top languages
+
+```text
+JavaScript     ████████████████████░░░░  83.4%
+Ruby           ██░░░░░░░░░░░░░░░░░░░░░░   7.7%
+Rust           ██░░░░░░░░░░░░░░░░░░░░░░   7.3%
+Python         █░░░░░░░░░░░░░░░░░░░░░░░   1.0%
+Shell          █░░░░░░░░░░░░░░░░░░░░░░░   0.5%
+Makefile       █░░░░░░░░░░░░░░░░░░░░░░░   0.1%
+Dockerfile     █░░░░░░░░░░░░░░░░░░░░░░░   0.0%
+```
+
+### Top contributors
+
+<p align="center"><a href="https://github.com/Xyraakyzzz" title="Xyraakyzzz: 13 commits"><img src="https://github.com/Xyraakyzzz.png?size=96" width="56" height="56" alt="Xyraakyzzz"></a><a href="https://github.com/XyraaRynn" title="XyraaRynn: 4 commits"><img src="https://github.com/XyraaRynn.png?size=96" width="56" height="56" alt="XyraaRynn"></a></p>
+
+| # | Contributor | Commits |
+|:---:|:---|:---:|
+| 1 | [@Xyraakyzzz](https://github.com/Xyraakyzzz) | 13 |
+| 2 | [@XyraaRynn](https://github.com/XyraaRynn) | 4 |
+
+### Recently updated
+
+- [`.github`](https://github.com/xof-next/.github) · last push 2026-11-02
+- [`XQuic`](https://github.com/xof-next/XQuic) · last push 2026-11-02
+- [`sc-archive`](https://github.com/xof-next/sc-archive) · last push 2026-11-02
+- [`https-proxy-agent`](https://github.com/xof-next/https-proxy-agent) · last push 2026-08-19
+- [`fetch`](https://github.com/xof-next/fetch) · last push 2026-08-19
+
+### Star history
+
+<p align="center"><img src="https://api.star-history.com/svg?repos=xof-next/fetch&amp;type=Date" alt="Star history"></p>
 <!-- STATS:END -->
 
 ## Team
