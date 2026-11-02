@@ -1,5 +1,9 @@
 name: Update org stats
 on:
+  push:
+    paths:
+      - ".github/workflows/org-stats.yml"
+      - "scripts/update_stats.py"
   schedule:
     - cron: "0 3 * * *"
   workflow_dispatch:
