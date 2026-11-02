@@ -8,7 +8,7 @@ from datetime import datetime, timezone
 
 ORG = os.environ.get("ORG", "xof-next")
 TOKEN = os.environ.get("GITHUB_TOKEN", "")
-README_PATH = os.environ.get("README_PATH", "profile/README.md")
+README_PATH = os.environ.get("README_PATH", "README.md")
  
 API = "https://api.github.com"
 START = "<!-- STATS:START -->"
