@@ -12,7 +12,7 @@ README_PATH = os.environ.get("README_PATH", "README.md")
  
 API = "https://api.github.com"
 START = "<!-- STATS:START -->"
-END = "<!-- STATS:END -->"
+END = "<!-- STATS:END -->" 
 
 BAR_WIDTH = 24
 TOP_REPOS = 10
