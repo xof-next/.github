@@ -80,7 +80,7 @@ Languages and technologies used across our projects:
 Live numbers for all public, non-fork repositories in the organization. Refreshed daily by GitHub Actions.
 
 <!-- STATS:START -->
-_Last updated 2026-11-02 10:37 UTC · generated automatically by GitHub Actions_
+_Last updated 2026-11-02 18:09 UTC · generated automatically by GitHub Actions_
 
 | Repositories | Stars | Forks | Contributors | Languages |
 |:---:|:---:|:---:|:---:|:---:|
@@ -94,7 +94,7 @@ _Last updated 2026-11-02 10:37 UTC · generated automatically by GitHub Actions_
 | 2 | [`.github`](https://github.com/xof-next/.github) | — | 0 | 0 | Python | 2026-11-02 |
 | 3 | [`https-proxy-agent`](https://github.com/xof-next/https-proxy-agent) | — | 0 | 0 | JavaScript | 2026-08-19 |
 | 4 | [`sc-archive`](https://github.com/xof-next/sc-archive) | Open-source CLI for password-protected .sc archives. The whole ZIP payload is encrypted with AES-256-GCM and scrypt-derived keys, file names stay hidden, and a separate recovery token can unlock the archive if the password is lost. Ruby and Rust implementations. | 0 | 0 | Ruby | 2026-11-02 |
-| 5 | [`XQuic`](https://github.com/xof-next/XQuic) | — | 0 | 0 | JavaScript | 2026-11-02 |
+| 5 | [`XQuic`](https://github.com/xof-next/XQuic) | XQuic (@xof/quic) is a low-level QUIC v1/v2 & HTTP/3 stack for Node.js 20+. Built as a foundational block for real-time and multi-region systems, it features connection management, TLS 1.3 (Cert/PSK), multiplexed streams, flow control, loss recovery, QPACK, and HTTP Datagrams. It operates as a protocol layer, not a drop-in client replacement. | 0 | 0 | JavaScript | 2026-11-02 |
 
 ### Top languages
 
@@ -110,18 +110,18 @@ Dockerfile     █░░░░░░░░░░░░░░░░░░░░�
 
 ### Top contributors
 
-<p align="center"><a href="https://github.com/Xyraakyzzz" title="Xyraakyzzz: 13 commits"><img src="https://github.com/Xyraakyzzz.png?size=96" width="56" height="56" alt="Xyraakyzzz"></a><a href="https://github.com/XyraaRynn" title="XyraaRynn: 4 commits"><img src="https://github.com/XyraaRynn.png?size=96" width="56" height="56" alt="XyraaRynn"></a></p>
+<p align="center"><a href="https://github.com/Xyraakyzzz" title="Xyraakyzzz: 16 commits"><img src="https://github.com/Xyraakyzzz.png?size=96" width="56" height="56" alt="Xyraakyzzz"></a><a href="https://github.com/XyraaRynn" title="XyraaRynn: 11 commits"><img src="https://github.com/XyraaRynn.png?size=96" width="56" height="56" alt="XyraaRynn"></a></p>
 
 | # | Contributor | Commits |
 |:---:|:---|:---:|
-| 1 | [@Xyraakyzzz](https://github.com/Xyraakyzzz) | 13 |
-| 2 | [@XyraaRynn](https://github.com/XyraaRynn) | 4 |
+| 1 | [@Xyraakyzzz](https://github.com/Xyraakyzzz) | 16 |
+| 2 | [@XyraaRynn](https://github.com/XyraaRynn) | 11 |
 
 ### Recently updated
 
 - [`.github`](https://github.com/xof-next/.github) · last push 2026-11-02
-- [`XQuic`](https://github.com/xof-next/XQuic) · last push 2026-11-02
 - [`sc-archive`](https://github.com/xof-next/sc-archive) · last push 2026-11-02
+- [`XQuic`](https://github.com/xof-next/XQuic) · last push 2026-11-02
 - [`https-proxy-agent`](https://github.com/xof-next/https-proxy-agent) · last push 2026-08-19
 - [`fetch`](https://github.com/xof-next/fetch) · last push 2026-08-19
 
