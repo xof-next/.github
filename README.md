@@ -80,11 +80,11 @@ Languages and technologies used across our projects:
 Live numbers for all public, non-fork repositories in the organization. Refreshed daily by GitHub Actions.
 
 <!-- STATS:START -->
-_Last updated 2026-11-04 08:18 UTC · generated automatically by GitHub Actions_
+_Last updated 2026-11-04 09:01 UTC · generated automatically by GitHub Actions_
 
 | Repositories | Stars | Forks | Contributors | Languages |
 |:---:|:---:|:---:|:---:|:---:|
-| 5 | 1 | 0 | 2 | 7 |
+| 5 | 1 | 0 | 2 | 12 |
 
 ### Top repositories
 
@@ -99,23 +99,28 @@ _Last updated 2026-11-04 08:18 UTC · generated automatically by GitHub Actions_
 ### Top languages
 
 ```text
-JavaScript     ████████████████████░░░░  83.2%
-Ruby           ██░░░░░░░░░░░░░░░░░░░░░░   7.7%
-Rust           ██░░░░░░░░░░░░░░░░░░░░░░   7.3%
-Python         █░░░░░░░░░░░░░░░░░░░░░░░   1.2%
-Shell          █░░░░░░░░░░░░░░░░░░░░░░░   0.5%
+Dart           ████████████░░░░░░░░░░░░  47.9%
+JavaScript     ██████████░░░░░░░░░░░░░░  43.1%
+Ruby           █░░░░░░░░░░░░░░░░░░░░░░░   3.9%
+Rust           █░░░░░░░░░░░░░░░░░░░░░░░   3.7%
+Python         █░░░░░░░░░░░░░░░░░░░░░░░   0.6%
+Shell          █░░░░░░░░░░░░░░░░░░░░░░░   0.6%
 Makefile       █░░░░░░░░░░░░░░░░░░░░░░░   0.1%
+C#             █░░░░░░░░░░░░░░░░░░░░░░░   0.0%
+C++            █░░░░░░░░░░░░░░░░░░░░░░░   0.0%
+C              █░░░░░░░░░░░░░░░░░░░░░░░   0.0%
 Dockerfile     █░░░░░░░░░░░░░░░░░░░░░░░   0.0%
+Kotlin         █░░░░░░░░░░░░░░░░░░░░░░░   0.0%
 ```
 
 ### Top contributors
 
-<p align="center"><a href="https://github.com/Xyraakyzzz" title="Xyraakyzzz: 22 contributions"><img src="https://github.com/Xyraakyzzz.png?size=96" width="56" height="56" alt="Xyraakyzzz"></a><a href="https://github.com/XyraaRynn" title="XyraaRynn: 11 contributions"><img src="https://github.com/XyraaRynn.png?size=96" width="56" height="56" alt="XyraaRynn"></a></p>
+<p align="center"><a href="https://github.com/Xyraakyzzz" title="Xyraakyzzz: 67 contributions"><img src="https://github.com/Xyraakyzzz.png?size=96" width="56" height="56" alt="Xyraakyzzz"></a><a href="https://github.com/XyraaRynn" title="XyraaRynn: 14 contributions"><img src="https://github.com/XyraaRynn.png?size=96" width="56" height="56" alt="XyraaRynn"></a></p>
 
 | # | Contributor | Contributions |
 |:---:|:---|:---:|
-| 1 | [@Xyraakyzzz](https://github.com/Xyraakyzzz) | 22 |
-| 2 | [@XyraaRynn](https://github.com/XyraaRynn) | 11 |
+| 1 | [@Xyraakyzzz](https://github.com/Xyraakyzzz) | 67 |
+| 2 | [@XyraaRynn](https://github.com/XyraaRynn) | 14 |
 
 ### Recently updated
 
