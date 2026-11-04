@@ -80,7 +80,7 @@ Languages and technologies used across our projects:
 Live numbers for all public, non-fork repositories in the organization. Refreshed daily by GitHub Actions.
 
 <!-- STATS:START -->
-_Last updated 2026-11-04 08:14 UTC · generated automatically by GitHub Actions_
+_Last updated 2026-11-04 08:18 UTC · generated automatically by GitHub Actions_
 
 | Repositories | Stars | Forks | Contributors | Languages |
 |:---:|:---:|:---:|:---:|:---:|
@@ -99,10 +99,10 @@ _Last updated 2026-11-04 08:14 UTC · generated automatically by GitHub Actions_
 ### Top languages
 
 ```text
-JavaScript     ████████████████████░░░░  83.4%
+JavaScript     ████████████████████░░░░  83.2%
 Ruby           ██░░░░░░░░░░░░░░░░░░░░░░   7.7%
 Rust           ██░░░░░░░░░░░░░░░░░░░░░░   7.3%
-Python         █░░░░░░░░░░░░░░░░░░░░░░░   1.0%
+Python         █░░░░░░░░░░░░░░░░░░░░░░░   1.2%
 Shell          █░░░░░░░░░░░░░░░░░░░░░░░   0.5%
 Makefile       █░░░░░░░░░░░░░░░░░░░░░░░   0.1%
 Dockerfile     █░░░░░░░░░░░░░░░░░░░░░░░   0.0%
@@ -110,11 +110,11 @@ Dockerfile     █░░░░░░░░░░░░░░░░░░░░�
 
 ### Top contributors
 
-<p align="center"><a href="https://github.com/Xyraakyzzz" title="Xyraakyzzz: 21 commits"><img src="https://github.com/Xyraakyzzz.png?size=96" width="56" height="56" alt="Xyraakyzzz"></a><a href="https://github.com/XyraaRynn" title="XyraaRynn: 11 commits"><img src="https://github.com/XyraaRynn.png?size=96" width="56" height="56" alt="XyraaRynn"></a></p>
+<p align="center"><a href="https://github.com/Xyraakyzzz" title="Xyraakyzzz: 22 contributions"><img src="https://github.com/Xyraakyzzz.png?size=96" width="56" height="56" alt="Xyraakyzzz"></a><a href="https://github.com/XyraaRynn" title="XyraaRynn: 11 contributions"><img src="https://github.com/XyraaRynn.png?size=96" width="56" height="56" alt="XyraaRynn"></a></p>
 
-| # | Contributor | Commits |
+| # | Contributor | Contributions |
 |:---:|:---|:---:|
-| 1 | [@Xyraakyzzz](https://github.com/Xyraakyzzz) | 21 |
+| 1 | [@Xyraakyzzz](https://github.com/Xyraakyzzz) | 22 |
 | 2 | [@XyraaRynn](https://github.com/XyraaRynn) | 11 |
 
 ### Recently updated
