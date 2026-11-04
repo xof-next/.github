@@ -1,3 +1,4 @@
+
 import json
 import os
 import re
@@ -16,7 +17,7 @@ END = "<!-- STATS:END -->"
 
 BAR_WIDTH = 24
 TOP_REPOS = 10
-TOP_LANGUAGES = 15
+TOP_LANGUAGES = 80
 TOP_CONTRIBUTORS = 10
 RECENT_REPOS = 200
 STAR_HISTORY_REPOS = 200
@@ -84,40 +85,73 @@ def collect():
     languages = {}
     contributors = {}
 
+    private_repos = 0
+    private_language_repos = 0
+    private_contributor_repos = 0
+
     for repo in all_repos:
         name = repo["name"]
+        is_private = repo.get("private", False)
 
-        data = request_json(
-            f"{API}/repos/{ORG}/{name}/languages"
-        ) or {}
+        if is_private:
+            private_repos += 1
 
-        for language, size in data.items():
-            languages[language] = languages.get(language, 0) + size
+        try:
+            data = request_json(
+                f"{API}/repos/{ORG}/{name}/languages"
+            ) or {}
 
-    for repo in public_repos:
-        name = repo["name"]
+            if is_private and data:
+                private_language_repos += 1
+
+            for language, size in data.items():
+                languages[language] = (
+                    languages.get(language, 0) + size
+                )
+
+        except urllib.error.HTTPError as error:
+            print(
+                f"warning: languages unavailable for {name} "
+                f"(HTTP {error.code})",
+                file=sys.stderr
+            )
 
         try:
             people = get_all(
                 f"/repos/{ORG}/{name}/contributors"
             )
+
+            if is_private and people:
+                private_contributor_repos += 1
+
+            for person in people:
+                if person.get("type") == "Bot":
+                    continue
+
+                login = person.get("login")
+
+                if not login:
+                    continue
+
+                contributors[login] = (
+                    contributors.get(login, 0)
+                    + person.get("contributions", 0)
+                )
+
         except urllib.error.HTTPError as error:
             print(
                 f"warning: contributors unavailable for {name} "
                 f"(HTTP {error.code})",
                 file=sys.stderr
             )
-            people = []
 
-        for person in people:
-            if person.get("type") == "Bot":
-                continue
-
-            login = person["login"]
-            contributors[login] = (
-                contributors.get(login, 0)
-                + person.get("contributions", 0)
-            )
+    print(f"Public repositories: {len(public_repos)}")
+    print(f"Accessible repositories: {len(all_repos)}")
+    print(f"Private repositories: {private_repos}")
+    print(f"Private language repositories: {private_language_repos}")
+    print(f"Private contributor repositories: {private_contributor_repos}")
+    print(f"Total languages: {len(languages)}")
+    print(f"Total contributors: {len(contributors)}")
 
     return public_repos, languages, contributors
 
@@ -212,7 +246,7 @@ def render(repos, languages, contributors, now=None):
 
     if ranked_people:
         avatars = "".join(
-            f'<a href="https://github.com/{login}" title="{login}: {commits} commits">'
+            f'<a href="https://github.com/{login}" title="{login}: {commits} contributions">'
             f'<img src="https://github.com/{login}.png?size=96" width="56" height="56" alt="{login}"></a>'
             for login, commits in ranked_people
         )
@@ -221,7 +255,7 @@ def render(repos, languages, contributors, now=None):
 
         lines += [
             "",
-            "| # | Contributor | Commits |",
+            "| # | Contributor | Contributions |",
             "|:---:|:---|:---:|"
         ]
 
