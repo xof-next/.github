@@ -33,7 +33,7 @@ jobs:
 
       - name: Generate org stats
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUBTOKEN }}
+          GITHUB_TOKEN: ${{ secrets.TOKEN_OWN }}
           ORG: xof-next
         run: python3 scripts/update_stats.py
 
