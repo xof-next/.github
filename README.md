@@ -80,52 +80,56 @@ Languages and technologies used across our projects:
 Live numbers for all public, non-fork repositories in the organization. Refreshed daily by GitHub Actions.
 
 <!-- STATS:START -->
-_Last updated 2026-11-08 09:51 UTC · generated automatically by GitHub Actions_
+_Last updated 2026-11-09 09:32 UTC · generated automatically by GitHub Actions_
 
 | Repositories | Stars | Forks | Contributors | Languages |
 |:---:|:---:|:---:|:---:|:---:|
-| 5 | 1 | 0 | 2 | 12 |
+| 6 | 1 | 5 | 2 | 14 |
 
 ### Top repositories
 
 | # | Repository | Description | Stars | Forks | Language | Last push |
 |:---:|:---|:---|:---:|:---:|:---:|:---:|
 | 1 | [`fetch`](https://github.com/xof-next/fetch) | — | 1 | 0 | JavaScript | 2026-08-19 |
-| 2 | [`.github`](https://github.com/xof-next/.github) | — | 0 | 0 | Python | 2026-11-07 |
-| 3 | [`https-proxy-agent`](https://github.com/xof-next/https-proxy-agent) | — | 0 | 0 | JavaScript | 2026-08-19 |
-| 4 | [`sc-archive`](https://github.com/xof-next/sc-archive) | Open-source CLI for password-protected .sc archives. The whole ZIP payload is encrypted with AES-256-GCM and scrypt-derived keys, file names stay hidden, and a separate recovery token can unlock the archive if the password is lost. Ruby and Rust implementations. | 0 | 0 | Ruby | 2026-11-04 |
-| 5 | [`XQuic`](https://github.com/xof-next/XQuic) | XQuic (@xof/quic) is a low-level QUIC v1/v2 & HTTP/3 stack for Node.js 20+. Built as a foundational block for real-time and multi-region systems, it features connection management, TLS 1.3 (Cert/PSK), multiplexed streams, flow control, loss recovery, QPACK, and HTTP Datagrams. It operates as a protocol layer, not a drop-in client replacement. | 0 | 0 | JavaScript | 2026-11-07 |
+| 2 | [`.github`](https://github.com/xof-next/.github) | — | 0 | 0 | Python | 2026-11-09 |
+| 3 | [`astra`](https://github.com/xof-next/astra) | Astra is a general-purpose programming language focused on simplicity, modularity, and performance, designed to provide a consistent and extensible development experience. | 0 | 3 | C++ | 2026-11-09 |
+| 4 | [`https-proxy-agent`](https://github.com/xof-next/https-proxy-agent) | — | 0 | 0 | JavaScript | 2026-08-19 |
+| 5 | [`sc-archive`](https://github.com/xof-next/sc-archive) | Open-source CLI for password-protected .sc archives. The whole ZIP payload is encrypted with AES-256-GCM and scrypt-derived keys, file names stay hidden, and a separate recovery token can unlock the archive if the password is lost. Ruby and Rust implementations. | 0 | 0 | Ruby | 2026-11-04 |
+| 6 | [`XQuic`](https://github.com/xof-next/XQuic) | XQuic (@xof/quic) is a low-level QUIC v1/v2 & HTTP/3 stack for Node.js 20+. Built as a foundational block for real-time and multi-region systems, it features connection management, TLS 1.3 (Cert/PSK), multiplexed streams, flow control, loss recovery, QPACK, and HTTP Datagrams. It operates as a protocol layer, not a drop-in client replacement. | 0 | 2 | JavaScript | 2026-11-07 |
 
 ### Top languages
 
 ```text
-Dart           ████████████░░░░░░░░░░░░  52.0%
-JavaScript     █████████░░░░░░░░░░░░░░░  39.5%
-Ruby           █░░░░░░░░░░░░░░░░░░░░░░░   3.6%
-Rust           █░░░░░░░░░░░░░░░░░░░░░░░   3.5%
-Python         █░░░░░░░░░░░░░░░░░░░░░░░   0.6%
+Dart           ███████████░░░░░░░░░░░░░  43.9%
+JavaScript     ████████░░░░░░░░░░░░░░░░  33.4%
+C++            ███░░░░░░░░░░░░░░░░░░░░░  14.2%
+Ruby           █░░░░░░░░░░░░░░░░░░░░░░░   3.0%
+Rust           █░░░░░░░░░░░░░░░░░░░░░░░   3.0%
+Python         █░░░░░░░░░░░░░░░░░░░░░░░   1.4%
 Shell          █░░░░░░░░░░░░░░░░░░░░░░░   0.5%
+CMake          █░░░░░░░░░░░░░░░░░░░░░░░   0.4%
 C              █░░░░░░░░░░░░░░░░░░░░░░░   0.1%
 C#             █░░░░░░░░░░░░░░░░░░░░░░░   0.1%
-Makefile       █░░░░░░░░░░░░░░░░░░░░░░░   0.1%
-C++            █░░░░░░░░░░░░░░░░░░░░░░░   0.1%
+Makefile       █░░░░░░░░░░░░░░░░░░░░░░░   0.0%
 Dockerfile     █░░░░░░░░░░░░░░░░░░░░░░░   0.0%
+PowerShell     █░░░░░░░░░░░░░░░░░░░░░░░   0.0%
 Kotlin         █░░░░░░░░░░░░░░░░░░░░░░░   0.0%
 ```
 
 ### Top contributors
 
-<p align="center"><a href="https://github.com/Xyraakyzzz" title="Xyraakyzzz: 125 contributions"><img src="https://github.com/Xyraakyzzz.png?size=96" width="56" height="56" alt="Xyraakyzzz"></a><a href="https://github.com/XyraaRynn" title="XyraaRynn: 34 contributions"><img src="https://github.com/XyraaRynn.png?size=96" width="56" height="56" alt="XyraaRynn"></a></p>
+<p align="center"><a href="https://github.com/Xyraakyzzz" title="Xyraakyzzz: 130 contributions"><img src="https://github.com/Xyraakyzzz.png?size=96" width="56" height="56" alt="Xyraakyzzz"></a><a href="https://github.com/XyraaRynn" title="XyraaRynn: 40 contributions"><img src="https://github.com/XyraaRynn.png?size=96" width="56" height="56" alt="XyraaRynn"></a></p>
 
 | # | Contributor | Contributions |
 |:---:|:---|:---:|
-| 1 | [@Xyraakyzzz](https://github.com/Xyraakyzzz) | 125 |
-| 2 | [@XyraaRynn](https://github.com/XyraaRynn) | 34 |
+| 1 | [@Xyraakyzzz](https://github.com/Xyraakyzzz) | 130 |
+| 2 | [@XyraaRynn](https://github.com/XyraaRynn) | 40 |
 
 ### Recently updated
 
+- [`.github`](https://github.com/xof-next/.github) · last push 2026-11-09
+- [`astra`](https://github.com/xof-next/astra) · last push 2026-11-09
 - [`XQuic`](https://github.com/xof-next/XQuic) · last push 2026-11-07
-- [`.github`](https://github.com/xof-next/.github) · last push 2026-11-07
 - [`sc-archive`](https://github.com/xof-next/sc-archive) · last push 2026-11-04
 - [`https-proxy-agent`](https://github.com/xof-next/https-proxy-agent) · last push 2026-08-19
 - [`fetch`](https://github.com/xof-next/fetch) · last push 2026-08-19
