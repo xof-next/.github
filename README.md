@@ -80,7 +80,7 @@ Languages and technologies used across our projects:
 Live numbers for all public, non-fork repositories in the organization. Refreshed daily by GitHub Actions.
 
 <!-- STATS:START -->
-_Last updated 2026-11-21 10:38 UTC · generated automatically by GitHub Actions_
+_Last updated 2026-11-22 10:42 UTC · generated automatically by GitHub Actions_
 
 | Repositories | Stars | Forks | Contributors | Languages |
 |:---:|:---:|:---:|:---:|:---:|
@@ -91,7 +91,7 @@ _Last updated 2026-11-21 10:38 UTC · generated automatically by GitHub Actions_
 | # | Repository | Description | Stars | Forks | Language | Last push |
 |:---:|:---|:---|:---:|:---:|:---:|:---:|
 | 1 | [`fetch`](https://github.com/xof-next/fetch) | — | 2 | 1 | JavaScript | 2026-08-19 |
-| 2 | [`.github`](https://github.com/xof-next/.github) | — | 1 | 0 | Python | 2026-11-20 |
+| 2 | [`.github`](https://github.com/xof-next/.github) | — | 1 | 0 | Python | 2026-11-21 |
 | 3 | [`astra`](https://github.com/xof-next/astra) | Astra is a general-purpose programming language focused on simplicity, modularity, and performance, designed to provide a consistent and extensible development experience. | 1 | 4 | C++ | 2026-11-15 |
 | 4 | [`https-proxy-agent`](https://github.com/xof-next/https-proxy-agent) | — | 1 | 1 | JavaScript | 2026-08-19 |
 | 5 | [`sc-archive`](https://github.com/xof-next/sc-archive) | Open-source CLI for password-protected .sc archives. The whole ZIP payload is encrypted with AES-256-GCM and scrypt-derived keys, file names stay hidden, and a separate recovery token can unlock the archive if the password is lost. Ruby and Rust implementations. | 1 | 1 | Ruby | 2026-11-04 |
@@ -108,8 +108,8 @@ Ruby           █░░░░░░░░░░░░░░░░░░░░�
 Rust           █░░░░░░░░░░░░░░░░░░░░░░░   2.5%
 CMake          █░░░░░░░░░░░░░░░░░░░░░░░   0.7%
 Shell          █░░░░░░░░░░░░░░░░░░░░░░░   0.4%
-C              █░░░░░░░░░░░░░░░░░░░░░░░   0.2%
-C#             █░░░░░░░░░░░░░░░░░░░░░░░   0.1%
+C              █░░░░░░░░░░░░░░░░░░░░░░░   0.3%
+C#             █░░░░░░░░░░░░░░░░░░░░░░░   0.2%
 PowerShell     █░░░░░░░░░░░░░░░░░░░░░░░   0.0%
 Makefile       █░░░░░░░░░░░░░░░░░░░░░░░   0.0%
 Dockerfile     █░░░░░░░░░░░░░░░░░░░░░░░   0.0%
@@ -118,16 +118,16 @@ Kotlin         █░░░░░░░░░░░░░░░░░░░░�
 
 ### Top contributors
 
-<p align="center"><a href="https://github.com/Xyraakyzzz" title="Xyraakyzzz: 139 contributions"><img src="https://github.com/Xyraakyzzz.png?size=96" width="56" height="56" alt="Xyraakyzzz"></a><a href="https://github.com/XyraaRynn" title="XyraaRynn: 80 contributions"><img src="https://github.com/XyraaRynn.png?size=96" width="56" height="56" alt="XyraaRynn"></a></p>
+<p align="center"><a href="https://github.com/Xyraakyzzz" title="Xyraakyzzz: 139 contributions"><img src="https://github.com/Xyraakyzzz.png?size=96" width="56" height="56" alt="Xyraakyzzz"></a><a href="https://github.com/XyraaRynn" title="XyraaRynn: 84 contributions"><img src="https://github.com/XyraaRynn.png?size=96" width="56" height="56" alt="XyraaRynn"></a></p>
 
 | # | Contributor | Contributions |
 |:---:|:---|:---:|
 | 1 | [@Xyraakyzzz](https://github.com/Xyraakyzzz) | 139 |
-| 2 | [@XyraaRynn](https://github.com/XyraaRynn) | 80 |
+| 2 | [@XyraaRynn](https://github.com/XyraaRynn) | 84 |
 
 ### Recently updated
 
-- [`.github`](https://github.com/xof-next/.github) · last push 2026-11-20
+- [`.github`](https://github.com/xof-next/.github) · last push 2026-11-21
 - [`astra`](https://github.com/xof-next/astra) · last push 2026-11-15
 - [`XQuic`](https://github.com/xof-next/XQuic) · last push 2026-11-07
 - [`sc-archive`](https://github.com/xof-next/sc-archive) · last push 2026-11-04
